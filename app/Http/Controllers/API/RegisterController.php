@@ -45,8 +45,8 @@ class RegisterController extends BaseController
 
     public function index()
     {
-        $users = User::all();
-        return $this->sendResponse($users,'Users retrieved successfully.');
+        // $users = User::all();
+        // return $this->sendResponse($users,'Users retrieved successfully.');
     }
     // --------------------------------------------------------------
 }
